@@ -7,6 +7,6 @@ app.post('/locations/add', function(req, res){
     location.index(req, res);
   })
   app.post('/locations/show', function(req, res){
-    locationd.getOne(req, res);
+    location.getOne(req, res);
   })
 }
